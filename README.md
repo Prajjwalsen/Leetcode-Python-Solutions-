@@ -14,9 +14,8 @@
 
 ## 👋 Welcome to My LeetCode Repository
 
-<p align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWV5cGpocWwwZjY2cnlqenh1cGNzdzRhMDQ4NXZmNmJmZ2QydWY5bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EZr27ZbJwmjE9PGyLN/giphy.gif" width="360"/>
-</p>
+
+<img align="right" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWV5cGpocWwwZjY2cnlqenh1cGNzdzRhMDQ4NXZmNmJmZ2QydWY5bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EZr27ZbJwmjE9PGyLN/giphy.gif" width="300"/>
 
 This repository documents my **daily LeetCode practice using Python**.  
 It reflects continuous learning, debugging, and improvement in problem-solving skills.
@@ -35,7 +34,7 @@ and improving **one step at a time**.
 
 ## 🛠 Tech & Tools Used
 
-<img align="right" src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" width="200"/>
+<img align="right" src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" width="170"/>
 
 ### 🐍 Python
 - Primary language for all solutions  
