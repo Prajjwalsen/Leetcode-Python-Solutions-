@@ -7,6 +7,7 @@ class Solution:
             val = -(int(str(abs(x))[::-1]))
         if(val <= -2**31 or val >= 2**31-1):
             return 0
-        else:
-            return val
+        return val 
+
+    
         
