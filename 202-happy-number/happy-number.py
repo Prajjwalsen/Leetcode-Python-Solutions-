@@ -1,8 +1,8 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
-        mem=set()
+        mem = set()
         while(n != 1):
-            sqrSum=0
+            sqrSum = 0
             for i in str(n):
                 sqrSum += int(i)**2
             n = sqrSum
@@ -11,3 +11,4 @@ class Solution:
             else:
                 mem.add(n)
         return True
+        
