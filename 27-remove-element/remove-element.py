@@ -1,7 +1,7 @@
 class Solution:
     def removeElement(self, nums: list[int], val: int) -> int:
-        i = 0
-        while (i<len(nums)):
+        i=0
+        while(i<len(nums)):
             if(nums[i]==val):
                 nums.pop(i)
             else:
