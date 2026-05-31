@@ -5,15 +5,20 @@ class Solution:
             return s
 
         rows = [""] * numRows
-        curr_row = 0
-        direction = -1
+
+        current_row = 0
+        going_down = False
 
         for char in s:
-            rows[curr_row] += char
 
-            if curr_row == 0 or curr_row == numRows - 1:
-                direction *= -1
+            rows[current_row] += char
 
-            curr_row += direction
+            if current_row == 0 or current_row == numRows - 1:
+                going_down = not going_down
+
+            if going_down:
+                current_row += 1
+            else:
+                current_row -= 1
 
         return "".join(rows)
