@@ -1,5 +1,5 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        counts = collections.Counter(nums)
-        return max(counts.keys(),key=counts.get)
+        count = collections.Counter(nums)
+        return max(count.keys(),key=count.get)
         
