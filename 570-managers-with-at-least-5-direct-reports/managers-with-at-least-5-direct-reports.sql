@@ -7,5 +7,4 @@ WHERE id IN (
     WHERE managerId IS NOT NULL
     GROUP BY managerId
     HAVING COUNT(*) >= 5
-
-)
+)                                                                                                      
